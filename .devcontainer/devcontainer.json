@@ -1,6 +1,7 @@
 {
   "name": "Laradock",
   "dockerComposeFile": "../docker-compose.yml",
+  "runArgs": ["--env-file", "../.env"]
   "remoteUser": "laradock",
   "runServices": [
     "nginx",
